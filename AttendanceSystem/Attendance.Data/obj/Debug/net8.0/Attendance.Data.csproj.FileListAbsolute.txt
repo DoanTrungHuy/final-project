@@ -1,0 +1,12 @@
+C:\Homework\Backend\11. Final Project\AttendanceSystem\Attendance.Data\bin\Debug\net8.0\Attendance.Data.deps.json
+C:\Homework\Backend\11. Final Project\AttendanceSystem\Attendance.Data\bin\Debug\net8.0\Attendance.Data.dll
+C:\Homework\Backend\11. Final Project\AttendanceSystem\Attendance.Data\bin\Debug\net8.0\Attendance.Data.pdb
+C:\Homework\Backend\11. Final Project\AttendanceSystem\Attendance.Data\obj\Debug\net8.0\Attendance.Data.csproj.AssemblyReference.cache
+C:\Homework\Backend\11. Final Project\AttendanceSystem\Attendance.Data\obj\Debug\net8.0\Attendance.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Homework\Backend\11. Final Project\AttendanceSystem\Attendance.Data\obj\Debug\net8.0\Attendance.Data.AssemblyInfoInputs.cache
+C:\Homework\Backend\11. Final Project\AttendanceSystem\Attendance.Data\obj\Debug\net8.0\Attendance.Data.AssemblyInfo.cs
+C:\Homework\Backend\11. Final Project\AttendanceSystem\Attendance.Data\obj\Debug\net8.0\Attendance.Data.csproj.CoreCompileInputs.cache
+C:\Homework\Backend\11. Final Project\AttendanceSystem\Attendance.Data\obj\Debug\net8.0\Attendance.Data.dll
+C:\Homework\Backend\11. Final Project\AttendanceSystem\Attendance.Data\obj\Debug\net8.0\refint\Attendance.Data.dll
+C:\Homework\Backend\11. Final Project\AttendanceSystem\Attendance.Data\obj\Debug\net8.0\Attendance.Data.pdb
+C:\Homework\Backend\11. Final Project\AttendanceSystem\Attendance.Data\obj\Debug\net8.0\ref\Attendance.Data.dll

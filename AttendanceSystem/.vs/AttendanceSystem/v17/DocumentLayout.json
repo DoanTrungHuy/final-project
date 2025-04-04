@@ -1,0 +1,532 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F08BB9C-8ED2-4FE8-9EAE-A7AC087FD94E}|Attendance.Api\\Attendance.Api.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F08BB9C-8ED2-4FE8-9EAE-A7AC087FD94E}|Attendance.Api\\Attendance.Api.csproj|solutionrelative:attendance.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.data\\validators\\employeevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|solutionrelative:attendance.data\\validators\\employeevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.data\\models\\qualityassuranceenxtension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|solutionrelative:attendance.data\\models\\qualityassuranceenxtension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.data\\models\\managerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|solutionrelative:attendance.data\\models\\managerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.data\\models\\employeeextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|solutionrelative:attendance.data\\models\\employeeextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.data\\models\\developerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|solutionrelative:attendance.data\\models\\developerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.data\\models\\attendancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|solutionrelative:attendance.data\\models\\attendancerecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F08BB9C-8ED2-4FE8-9EAE-A7AC087FD94E}|Attendance.Api\\Attendance.Api.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F08BB9C-8ED2-4FE8-9EAE-A7AC087FD94E}|Attendance.Api\\Attendance.Api.csproj|solutionrelative:attendance.api\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.data\\entities\\employeeentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|solutionrelative:attendance.data\\entities\\employeeentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.data\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|solutionrelative:attendance.data\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.data\\entities\\attendancerecordentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|solutionrelative:attendance.data\\entities\\attendancerecordentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35ABDE0-71F3-496D-B090-D7834DBB5FBF}|Attendance.Services\\Attendance.Services.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.services\\attendance.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C35ABDE0-71F3-496D-B090-D7834DBB5FBF}|Attendance.Services\\Attendance.Services.csproj|solutionrelative:attendance.services\\attendance.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.data\\attendance.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|solutionrelative:attendance.data\\attendance.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F08BB9C-8ED2-4FE8-9EAE-A7AC087FD94E}|Attendance.Api\\Attendance.Api.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.api\\attendance.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0F08BB9C-8ED2-4FE8-9EAE-A7AC087FD94E}|Attendance.Api\\Attendance.Api.csproj|solutionrelative:attendance.api\\attendance.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F08BB9C-8ED2-4FE8-9EAE-A7AC087FD94E}|Attendance.Api\\Attendance.Api.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.api\\attendance.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{0F08BB9C-8ED2-4FE8-9EAE-A7AC087FD94E}|Attendance.Api\\Attendance.Api.csproj|solutionrelative:attendance.api\\attendance.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.data\\validators\\managerextensionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|solutionrelative:attendance.data\\validators\\managerextensionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.data\\validators\\qualityassuranceextensionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|solutionrelative:attendance.data\\validators\\qualityassuranceextensionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.data\\validators\\developerextensionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|solutionrelative:attendance.data\\validators\\developerextensionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.data\\validators\\attendancerecordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|solutionrelative:attendance.data\\validators\\attendancerecordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35ABDE0-71F3-496D-B090-D7834DBB5FBF}|Attendance.Services\\Attendance.Services.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.services\\mapping\\employeemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35ABDE0-71F3-496D-B090-D7834DBB5FBF}|Attendance.Services\\Attendance.Services.csproj|solutionrelative:attendance.services\\mapping\\employeemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35ABDE0-71F3-496D-B090-D7834DBB5FBF}|Attendance.Services\\Attendance.Services.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.services\\mapping\\employeeentitymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35ABDE0-71F3-496D-B090-D7834DBB5FBF}|Attendance.Services\\Attendance.Services.csproj|solutionrelative:attendance.services\\mapping\\employeeentitymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.data\\enums\\sex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|solutionrelative:attendance.data\\enums\\sex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.data\\enums\\managertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|solutionrelative:attendance.data\\enums\\managertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.data\\enums\\employeetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|solutionrelative:attendance.data\\enums\\employeetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.data\\enums\\band.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FC2AA76-F8B9-4119-96C5-B87C02497020}|Attendance.Data\\Attendance.Data.csproj|solutionrelative:attendance.data\\enums\\band.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35ABDE0-71F3-496D-B090-D7834DBB5FBF}|Attendance.Services\\Attendance.Services.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.services\\iemployeedatabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35ABDE0-71F3-496D-B090-D7834DBB5FBF}|Attendance.Services\\Attendance.Services.csproj|solutionrelative:attendance.services\\iemployeedatabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35ABDE0-71F3-496D-B090-D7834DBB5FBF}|Attendance.Services\\Attendance.Services.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35ABDE0-71F3-496D-B090-D7834DBB5FBF}|Attendance.Services\\Attendance.Services.csproj|solutionrelative:attendance.services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35ABDE0-71F3-496D-B090-D7834DBB5FBF}|Attendance.Services\\Attendance.Services.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.services\\employeedatabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35ABDE0-71F3-496D-B090-D7834DBB5FBF}|Attendance.Services\\Attendance.Services.csproj|solutionrelative:attendance.services\\employeedatabaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C35ABDE0-71F3-496D-B090-D7834DBB5FBF}|Attendance.Services\\Attendance.Services.csproj|c:\\homework\\backend\\11. final project\\attendancesystem\\attendance.services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C35ABDE0-71F3-496D-B090-D7834DBB5FBF}|Attendance.Services\\Attendance.Services.csproj|solutionrelative:attendance.services\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|Sql{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\initialize.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|Sql{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|solutionrelative:initialize.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|Sql{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\initialize.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|Sql{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|solutionrelative:initialize.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 191,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeValidator.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Validators\\EmployeeValidator.cs",
+              "RelativeDocumentMoniker": "Attendance.Data\\Validators\\EmployeeValidator.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Validators\\EmployeeValidator.cs",
+              "RelativeToolTip": "Attendance.Data\\Validators\\EmployeeValidator.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:46:27.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Api\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Attendance.Api\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Api\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Attendance.Api\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA8wDUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T04:49:10.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AttendanceRecordEntity.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Entities\\AttendanceRecordEntity.cs",
+              "RelativeDocumentMoniker": "Attendance.Data\\Entities\\AttendanceRecordEntity.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Entities\\AttendanceRecordEntity.cs",
+              "RelativeToolTip": "Attendance.Data\\Entities\\AttendanceRecordEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T04:24:48.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Attendance.Data\\Models\\Employee.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Models\\Employee.cs",
+              "RelativeToolTip": "Attendance.Data\\Models\\Employee.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:35:29.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeEntity.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Entities\\EmployeeEntity.cs",
+              "RelativeDocumentMoniker": "Attendance.Data\\Entities\\EmployeeEntity.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Entities\\EmployeeEntity.cs",
+              "RelativeToolTip": "Attendance.Data\\Entities\\EmployeeEntity.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA0wA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T03:16:58.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AttendanceRecord.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Models\\AttendanceRecord.cs",
+              "RelativeDocumentMoniker": "Attendance.Data\\Models\\AttendanceRecord.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Models\\AttendanceRecord.cs",
+              "RelativeToolTip": "Attendance.Data\\Models\\AttendanceRecord.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T04:02:33.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeveloperExtension.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Models\\DeveloperExtension.cs",
+              "RelativeDocumentMoniker": "Attendance.Data\\Models\\DeveloperExtension.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Models\\DeveloperExtension.cs",
+              "RelativeToolTip": "Attendance.Data\\Models\\DeveloperExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:43:35.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeExtension.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Models\\EmployeeExtension.cs",
+              "RelativeDocumentMoniker": "Attendance.Data\\Models\\EmployeeExtension.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Models\\EmployeeExtension.cs",
+              "RelativeToolTip": "Attendance.Data\\Models\\EmployeeExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:42:52.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManagerExtension.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Models\\ManagerExtension.cs",
+              "RelativeDocumentMoniker": "Attendance.Data\\Models\\ManagerExtension.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Models\\ManagerExtension.cs",
+              "RelativeToolTip": "Attendance.Data\\Models\\ManagerExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:42:18.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QualityAssuranceEnxtension.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Models\\QualityAssuranceEnxtension.cs",
+              "RelativeDocumentMoniker": "Attendance.Data\\Models\\QualityAssuranceEnxtension.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Models\\QualityAssuranceEnxtension.cs",
+              "RelativeToolTip": "Attendance.Data\\Models\\QualityAssuranceEnxtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:42:35.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Attendance.Api\\Program.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Api\\Program.cs",
+              "RelativeToolTip": "Attendance.Api\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:30:25.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Attendance.Services.csproj",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Services\\Attendance.Services.csproj",
+              "RelativeDocumentMoniker": "Attendance.Services\\Attendance.Services.csproj",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Services\\Attendance.Services.csproj",
+              "RelativeToolTip": "Attendance.Services\\Attendance.Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-03T05:00:09.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Attendance.Data.csproj",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Attendance.Data.csproj",
+              "RelativeDocumentMoniker": "Attendance.Data\\Attendance.Data.csproj",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Attendance.Data.csproj",
+              "RelativeToolTip": "Attendance.Data\\Attendance.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-03T04:46:27.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Attendance.Api.csproj",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Api\\Attendance.Api.csproj",
+              "RelativeDocumentMoniker": "Attendance.Api\\Attendance.Api.csproj",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Api\\Attendance.Api.csproj",
+              "RelativeToolTip": "Attendance.Api\\Attendance.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-03T04:48:34.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ManagerExtensionValidator.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Validators\\ManagerExtensionValidator.cs",
+              "RelativeDocumentMoniker": "Attendance.Data\\Validators\\ManagerExtensionValidator.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Validators\\ManagerExtensionValidator.cs",
+              "RelativeToolTip": "Attendance.Data\\Validators\\ManagerExtensionValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T06:42:39.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Attendance.Api",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Api\\Attendance.Api.csproj",
+              "RelativeDocumentMoniker": "Attendance.Api\\Attendance.Api.csproj",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Api\\Attendance.Api.csproj",
+              "RelativeToolTip": "Attendance.Api\\Attendance.Api.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-04T08:41:54.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DeveloperExtensionValidator.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Validators\\DeveloperExtensionValidator.cs",
+              "RelativeDocumentMoniker": "Attendance.Data\\Validators\\DeveloperExtensionValidator.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Validators\\DeveloperExtensionValidator.cs",
+              "RelativeToolTip": "Attendance.Data\\Validators\\DeveloperExtensionValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T06:42:24.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AttendanceRecordValidator.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Validators\\AttendanceRecordValidator.cs",
+              "RelativeDocumentMoniker": "Attendance.Data\\Validators\\AttendanceRecordValidator.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Validators\\AttendanceRecordValidator.cs",
+              "RelativeToolTip": "Attendance.Data\\Validators\\AttendanceRecordValidator.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA8wCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T04:51:19.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "QualityAssuranceExtensionValidator.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Validators\\QualityAssuranceExtensionValidator.cs",
+              "RelativeDocumentMoniker": "Attendance.Data\\Validators\\QualityAssuranceExtensionValidator.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Validators\\QualityAssuranceExtensionValidator.cs",
+              "RelativeToolTip": "Attendance.Data\\Validators\\QualityAssuranceExtensionValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T06:44:39.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Sex.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Enums\\Sex.cs",
+              "RelativeDocumentMoniker": "Attendance.Data\\Enums\\Sex.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Enums\\Sex.cs",
+              "RelativeToolTip": "Attendance.Data\\Enums\\Sex.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:38:45.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EmployeeMapper.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Services\\Mapping\\EmployeeMapper.cs",
+              "RelativeDocumentMoniker": "Attendance.Services\\Mapping\\EmployeeMapper.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Services\\Mapping\\EmployeeMapper.cs",
+              "RelativeToolTip": "Attendance.Services\\Mapping\\EmployeeMapper.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwBIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T07:46:50.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EmployeeEntityMapper.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Services\\Mapping\\EmployeeEntityMapper.cs",
+              "RelativeDocumentMoniker": "Attendance.Services\\Mapping\\EmployeeEntityMapper.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Services\\Mapping\\EmployeeEntityMapper.cs",
+              "RelativeToolTip": "Attendance.Services\\Mapping\\EmployeeEntityMapper.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T07:24:20.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ManagerType.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Enums\\ManagerType.cs",
+              "RelativeDocumentMoniker": "Attendance.Data\\Enums\\ManagerType.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Enums\\ManagerType.cs",
+              "RelativeToolTip": "Attendance.Data\\Enums\\ManagerType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:53:06.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Band.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Enums\\Band.cs",
+              "RelativeDocumentMoniker": "Attendance.Data\\Enums\\Band.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Enums\\Band.cs",
+              "RelativeToolTip": "Attendance.Data\\Enums\\Band.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:46:33.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EmployeeType.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Enums\\EmployeeType.cs",
+              "RelativeDocumentMoniker": "Attendance.Data\\Enums\\EmployeeType.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Enums\\EmployeeType.cs",
+              "RelativeToolTip": "Attendance.Data\\Enums\\EmployeeType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T03:56:46.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IEmployeeDatabaseService.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Services\\IEmployeeDatabaseService.cs",
+              "RelativeDocumentMoniker": "Attendance.Services\\IEmployeeDatabaseService.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Services\\IEmployeeDatabaseService.cs",
+              "RelativeToolTip": "Attendance.Services\\IEmployeeDatabaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T06:38:51.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "Attendance.Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Services\\EmployeeService.cs",
+              "RelativeToolTip": "Attendance.Services\\EmployeeService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAUwAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T06:31:15.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EmployeeDatabaseService.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Services\\EmployeeDatabaseService.cs",
+              "RelativeDocumentMoniker": "Attendance.Services\\EmployeeDatabaseService.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Services\\EmployeeDatabaseService.cs",
+              "RelativeToolTip": "Attendance.Services\\EmployeeDatabaseService.cs",
+              "ViewState": "AgIAAFEAAAAAMzMzMzMXwE0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T06:39:06.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Services\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "Attendance.Services\\IEmployeeService.cs",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Services\\IEmployeeService.cs",
+              "RelativeToolTip": "Attendance.Services\\IEmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T06:24:53.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "initialize.sql ",
+              "DocumentMoniker": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\initialize.sql",
+              "RelativeDocumentMoniker": "initialize.sql",
+              "ToolTip": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\initialize.sql",
+              "RelativeToolTip": "initialize.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-03T04:30:19.191Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

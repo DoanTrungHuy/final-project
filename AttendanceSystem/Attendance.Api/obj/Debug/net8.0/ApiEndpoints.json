@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "Attendance.Api.Controllers.EmployeeController",
+    "Method": "ImportEmployees",
+    "RelativePath": "api/Employee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employees",
+        "Type": "System.Collections.Generic.List\u00601[[Attendance.Data.Models.Employee, Attendance.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Attendance.Api.Controllers.EmployeeController",
+    "Method": "login",
+    "RelativePath": "api/Employee/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
