@@ -1,6 +1,6 @@
 ﻿namespace Attendance.Data.Models
 {
-    public class EmployeeExtension
+    public class EmployeeExtension : Object
     {
     }
 }

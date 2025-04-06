@@ -98,16 +98,12 @@
             "type": "boolean"
           },
           "extension": {
-            "$ref": "#/components/schemas/EmployeeExtension"
+            "nullable": true
           },
           "employeeType": {
             "$ref": "#/components/schemas/EmployeeType"
           }
         },
-        "additionalProperties": false
-      },
-      "EmployeeExtension": {
-        "type": "object",
         "additionalProperties": false
       },
       "EmployeeType": {

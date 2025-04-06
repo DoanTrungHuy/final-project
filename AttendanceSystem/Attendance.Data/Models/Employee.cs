@@ -18,7 +18,7 @@ namespace Attendance.Data.Models
         public String Department { get; set; }
         public String PhoneNumber { get; set; }
         public Boolean IsIntern { get; set; }
-        public EmployeeExtension Extension { get; set; }
+        public Object Extension { get; set; }
         public EmployeeType EmployeeType { get; set; }
     }
 }

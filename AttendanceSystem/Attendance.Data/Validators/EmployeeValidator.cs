@@ -3,12 +3,17 @@ using Attendance.Data.Models;
 using Attendance.Data.Enums;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.Extensions.Logging;
+using System.Linq.Expressions;
+using Attendance.Data.Entites;
+using System.ComponentModel.DataAnnotations;
+using FluentValidation.Results;
+using System.Text.Json;
 
 namespace Attendance.Data.Validators
 {
     public class EmployeeValidator : AbstractValidator<Employee>
     {
-        public EmployeeValidator(ILogger<EmployeeValidator> logger)
+        public EmployeeValidator()
         {
             RuleFor(x => x.Id)
             .NotNull()
@@ -47,51 +52,80 @@ namespace Attendance.Data.Validators
                 .NotNull()
                 .IsInEnum().WithMessage("Invalid EmployeeType value.");
 
-            //RuleFor(x => x.Extension)
-            //    .NotNull().WithMessage("Extension is required")
-            //    .Custom((extension, context) =>
-            //    {
-            //        if (extension is ManagerExtension managerExtension)
-            //        {
-            //            var validator = new ManagerExtensionValidator();
-            //            var result = validator.Validate(managerExtension);
-            //            if (!result.IsValid)
-            //            {
-            //                foreach (var failure in result.Errors)
-            //                {
-            //                    context.AddFailure(failure);
-            //                }
-            //            }
-            //        }
-            //        else if (extension is DeveloperExtension developerExtension)
-            //        {
-            //            var validator = new DeveloperExtensionValidator();
-            //            var result = validator.Validate(developerExtension);
-            //            if (!result.IsValid)
-            //            {
-            //                foreach (var failure in result.Errors)
-            //                {
-            //                    context.AddFailure(failure);
-            //                }
-            //            }
-            //        }
-            //        else if (extension is QualityAssuranceExtension qaExtension)
-            //        {
-            //            var validator = new QualityAssuranceExtensionValidator();
-            //            var result = validator.Validate(qaExtension);
-            //            if (!result.IsValid)
-            //            {
-            //                foreach (var failure in result.Errors)
-            //                {
-            //                    context.AddFailure(failure);
-            //                }
-            //            }
-            //        }
-            //        else
-            //        {
-            //            context.AddFailure("Invalid extension type.");
-            //        }
-            //    });
+            RuleFor(x => x)
+                .NotNull().WithMessage("Extension is required")
+                .Custom((request, context) =>
+                {
+                    if (request.Extension == null)
+                    {
+                        context.AddFailure("Extension", "Extension is required");
+                        return;
+                    }
+
+                    FluentValidation.Results.ValidationResult result = null;
+
+                    switch (request.EmployeeType)
+                    {
+                        case EmployeeType.Developer:
+                            var devExtension = JsonSerializer.Deserialize<DeveloperExtension>(
+                                JsonSerializer.Serialize(request.Extension));
+                            Console.WriteLine("🛠️ Mapping to DeveloperExtension: " + JsonSerializer.Serialize(devExtension));
+                            if (devExtension != null)
+                            {
+                                var devValidator = new DeveloperExtensionValidator();
+                                result = devValidator.Validate(devExtension);
+                            }
+                            else
+                            {
+                                context.AddFailure("Extension", "Extension must be of type DeveloperExtension");
+                            }
+                            break;
+
+                        case EmployeeType.QualityAssurance:
+                            var qaExtension = JsonSerializer.Deserialize<QualityAssuranceExtension>(
+                                JsonSerializer.Serialize(request.Extension));
+                            Console.WriteLine("🧪 Mapping to QAExtension: " + JsonSerializer.Serialize(qaExtension));
+                            if (qaExtension != null)
+                            {
+                                var qaValidator = new QualityAssuranceExtensionValidator();
+                                result = qaValidator.Validate(qaExtension);
+                            }
+                            else
+                            {
+                                context.AddFailure("Extension", "Extension must be of type QualityAssuranceExtension");
+                            }
+                            break;
+
+                        case EmployeeType.Manager:
+                            var managerExtension = JsonSerializer.Deserialize<ManagerExtension>(
+                                JsonSerializer.Serialize(request.Extension));
+                            Console.WriteLine("📋 Mapping to ManagerExtension: " + JsonSerializer.Serialize(managerExtension));
+                            if (managerExtension != null)
+                            {
+                                var managerValidator = new ManagerExtensionValidator();
+                                result = managerValidator.Validate(managerExtension);
+                            }
+                            else
+                            {
+                                context.AddFailure("Extension", "Extension must be of type ManagerExtension");
+                            }
+                            break;
+
+                        default:
+                            context.AddFailure("EmployeeType", "Invalid employee type.");
+                            break;
+                    }
+
+                    if (result != null && !result.IsValid)
+                    {
+                        foreach (var failure in result.Errors)
+                        {
+                            context.AddFailure(failure);
+                        }
+                    }
+                });
+
+
 
             RuleFor(x => x.IsIntern)
                .NotNull().WithMessage("Intern status must be specified");

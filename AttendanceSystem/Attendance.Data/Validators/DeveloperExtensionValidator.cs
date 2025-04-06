@@ -8,7 +8,7 @@ namespace Attendance.Data.Validators
         public DeveloperExtensionValidator()
         {
             RuleFor(x => x.Band)
-                .NotEmpty().WithMessage("Band is required.");
+                .IsInEnum().WithMessage("Band is required.");
 
             RuleFor(x => x.TechDirection)
                 .NotEmpty().WithMessage("TechDirection is required.");

@@ -13,7 +13,8 @@ namespace Attendance.Data.Validators
         public QualityAssuranceExtensionValidator()
         {
             RuleFor(x => x.Band)
-                .NotEmpty().WithMessage("Band is required.");
+                .IsInEnum().WithMessage("Band is required.");
+
 
             RuleFor(x => x.CanWriteCode)
                 .NotNull().WithMessage("CanWriteCode is required.");

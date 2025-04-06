@@ -14,13 +14,17 @@ namespace Attendance.Api
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddControllers()
+                .AddJsonOptions(options =>
+                {
+                    options.JsonSerializerOptions.PropertyNameCaseInsensitive = true;
+                });
             builder.Services.AddScoped<IEmployeeService, EmployeeService>();
             builder.Services.AddScoped<IValidator<Employee>, EmployeeValidator>();
             builder.Services.AddScoped<IValidator<ManagerExtension>, ManagerExtensionValidator>();
             builder.Services.AddScoped<IValidator<DeveloperExtension>, DeveloperExtensionValidator>();
             builder.Services.AddScoped<IValidator<QualityAssuranceExtension>, QualityAssuranceExtensionValidator>();
-            builder.Services.AddControllers();
-            
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();

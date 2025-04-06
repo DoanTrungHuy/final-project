@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Api\\Attendance.Api.csproj": {}
+    "C:\\Users\\doant\\OneDrive\\Máy tính\\final-project\\AttendanceSystem\\Attendance.Api\\Attendance.Api.csproj": {}
   },
   "projects": {
-    "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Api\\Attendance.Api.csproj": {
+    "C:\\Users\\doant\\OneDrive\\Máy tính\\final-project\\AttendanceSystem\\Attendance.Api\\Attendance.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Api\\Attendance.Api.csproj",
+        "projectUniqueName": "C:\\Users\\doant\\OneDrive\\Máy tính\\final-project\\AttendanceSystem\\Attendance.Api\\Attendance.Api.csproj",
         "projectName": "Attendance.Api",
-        "projectPath": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Api\\Attendance.Api.csproj",
-        "packagesPath": "C:\\Users\\huey.doan\\.nuget\\packages\\",
-        "outputPath": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Api\\obj\\",
+        "projectPath": "C:\\Users\\doant\\OneDrive\\Máy tính\\final-project\\AttendanceSystem\\Attendance.Api\\Attendance.Api.csproj",
+        "packagesPath": "C:\\Users\\doant\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\doant\\OneDrive\\Máy tính\\final-project\\AttendanceSystem\\Attendance.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\huey.doan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\doant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,17 +26,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Attendance.Data.csproj": {
-                "projectPath": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Attendance.Data.csproj"
+              "C:\\Users\\doant\\OneDrive\\Máy tính\\final-project\\AttendanceSystem\\Attendance.Data\\Attendance.Data.csproj": {
+                "projectPath": "C:\\Users\\doant\\OneDrive\\Máy tính\\final-project\\AttendanceSystem\\Attendance.Data\\Attendance.Data.csproj"
               },
-              "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Services\\Attendance.Services.csproj": {
-                "projectPath": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Services\\Attendance.Services.csproj"
+              "C:\\Users\\doant\\OneDrive\\Máy tính\\final-project\\AttendanceSystem\\Attendance.Services\\Attendance.Services.csproj": {
+                "projectPath": "C:\\Users\\doant\\OneDrive\\Máy tính\\final-project\\AttendanceSystem\\Attendance.Services\\Attendance.Services.csproj"
               }
             }
           }
@@ -93,24 +94,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Attendance.Data.csproj": {
+    "C:\\Users\\doant\\OneDrive\\Máy tính\\final-project\\AttendanceSystem\\Attendance.Data\\Attendance.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Attendance.Data.csproj",
+        "projectUniqueName": "C:\\Users\\doant\\OneDrive\\Máy tính\\final-project\\AttendanceSystem\\Attendance.Data\\Attendance.Data.csproj",
         "projectName": "Attendance.Data",
-        "projectPath": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Attendance.Data.csproj",
-        "packagesPath": "C:\\Users\\huey.doan\\.nuget\\packages\\",
-        "outputPath": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\obj\\",
+        "projectPath": "C:\\Users\\doant\\OneDrive\\Máy tính\\final-project\\AttendanceSystem\\Attendance.Data\\Attendance.Data.csproj",
+        "packagesPath": "C:\\Users\\doant\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\doant\\OneDrive\\Máy tính\\final-project\\AttendanceSystem\\Attendance.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\huey.doan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\doant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -119,6 +120,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -180,24 +182,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Services\\Attendance.Services.csproj": {
+    "C:\\Users\\doant\\OneDrive\\Máy tính\\final-project\\AttendanceSystem\\Attendance.Services\\Attendance.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Services\\Attendance.Services.csproj",
+        "projectUniqueName": "C:\\Users\\doant\\OneDrive\\Máy tính\\final-project\\AttendanceSystem\\Attendance.Services\\Attendance.Services.csproj",
         "projectName": "Attendance.Services",
-        "projectPath": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Services\\Attendance.Services.csproj",
-        "packagesPath": "C:\\Users\\huey.doan\\.nuget\\packages\\",
-        "outputPath": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Services\\obj\\",
+        "projectPath": "C:\\Users\\doant\\OneDrive\\Máy tính\\final-project\\AttendanceSystem\\Attendance.Services\\Attendance.Services.csproj",
+        "packagesPath": "C:\\Users\\doant\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\doant\\OneDrive\\Máy tính\\final-project\\AttendanceSystem\\Attendance.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\huey.doan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\doant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -206,14 +208,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Attendance.Data.csproj": {
-                "projectPath": "C:\\Homework\\Backend\\11. Final Project\\AttendanceSystem\\Attendance.Data\\Attendance.Data.csproj"
+              "C:\\Users\\doant\\OneDrive\\Máy tính\\final-project\\AttendanceSystem\\Attendance.Data\\Attendance.Data.csproj": {
+                "projectPath": "C:\\Users\\doant\\OneDrive\\Máy tính\\final-project\\AttendanceSystem\\Attendance.Data\\Attendance.Data.csproj"
               }
             }
           }
@@ -271,7 +274,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
